@@ -20,6 +20,7 @@ Generate wildcard SSL certificates by using cloudflare dns validation. I have pr
  - Win-Acme [Win-acme](https://www.win-acme.com/)!
  - jq is a lightweight and flexible command-line JSON processor [JQ EXE](https://stedolan.github.io/jq/)!
  - Cloudflare API [CLOUDFLARE](https://www.cloudflare.com/)!
+ - Curl must be installed in your Windows Pc
 
 
 # Author
