@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <httpRedirect enabled="false" />
+    <validation validateIntegratedModeConfiguration="false" />
+    <staticContent>
+      <clear />
+      <mimeMap fileExtension="." mimeType="text/json" />
+      <mimeMap fileExtension=".*" mimeType="text/json" />
+    </staticContent>
+  </system.webServer>
+  <system.web>
+    <authorization>
+      <allow users="*" />
+    </authorization>
+  </system.web>
+</configuration>
