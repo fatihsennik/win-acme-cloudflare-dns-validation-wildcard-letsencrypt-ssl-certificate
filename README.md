@@ -12,4 +12,10 @@ Generate wildcard SSL certificates by using cloudflare dns validation. I have pr
  
 # How to use this script?
  - Update create.bat, delete.bat and sslrun.bat with your Cloudflare Api credentials and your domain name address.
- - As for scheduling Let's Encrypt certificate generation. Point Windows Task Scheduling command to C:/yourdir/sslrun.bat file and set dir to C:/yourdir/. I added example task scheduling xml file
+ - Create letencrypt dir in your C drive and upload all files in this repo to C:/letencrypt dir
+ - As for scheduling Let's Encrypt certificate generation. Point Windows Task Scheduling command to C:/letencrypt/sslrun.bat file and set dir to C:/letencrypt/. I added example task scheduling xml file
+
+# Used Libs
+ - Win-Acme [Win-acme](https://www.win-acme.com/)!
+ - jq is a lightweight and flexible command-line JSON processor [JQ EXE](https://stedolan.github.io/jq/)!
+ - Cloudflare API [CLOUDFLARE](https://www.cloudflare.com/)!
